@@ -65,8 +65,10 @@ const updateDocente = (req, res)=>{
         if(docentesData.materias==null){
             docentesData.materias = docentes[indice].materias
         }else{
-             docentes[indice].materias.push(docentesData.materias)
-                          
+          
+                docentes[indice].materias.push(docentesData.materias)
+             
+               
         }
        
         if (docentesData.concursado!==undefined) {
